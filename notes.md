@@ -8,3 +8,6 @@ Plan:
 		-X_2: day_of_week (7 options)
 
 	-Output variable is prediction of # of rides
+
+Notes:
+	-Earlier weeks tend to predict a little high 
