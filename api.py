@@ -10,10 +10,6 @@ import numpy as np
 
 app = Flask(__name__)
 
-#import initial data set json
-json_read =  open('uber_demand_prediction_challenge.json')
-json_data = json.load(json_read)
-json_read.close()
 
 final_matrix = []
 learningModel = sklearner.PredictionModel()
